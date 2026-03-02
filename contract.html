@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Agreement | ContractCraft</title>
+
+    <!-- Google Font for Elegant Logo -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">ContractCraft</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Bundle</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contract Form -->
+    <section class="contract container">
+
+        <h1>Freelance Service Agreement</h1>
+
+        <form>
+
+            <h2>1. Parties</h2>
+            <p>
+                This Agreement is entered into between
+                <input type="text" placeholder="Freelancer Name" class="fill-field">
+                and
+                <input type="text" placeholder="Client Name" class="fill-field">.
+            </p>
+
+            <h2>2. Scope of Services</h2>
+            <p>
+                The Freelancer agrees to provide the following services:
+            </p>
+            <textarea class="fill-area" placeholder="Describe the services here..."></textarea>
+
+            <h2>3. Compensation</h2>
+            <p>
+                Total Payment Amount:
+                <input type="text" placeholder="$0.00" class="fill-field">
+            </p>
+
+            <p>
+                Payment Schedule:
+            </p>
+            <textarea class="fill-area" placeholder="Define payment milestones..."></textarea>
+
+            <h2>4. Signatures</h2>
+
+            <p>
+                Freelancer Signature:
+                <input type="text" placeholder="Type Full Name" class="signature">
+            </p>
+
+            <p>
+                Client Signature:
+                <input type="text" placeholder="Type Full Name" class="signature">
+            </p>
+
+            <!-- Print Button -->
+            <div class="actions">
+                <button type="button" onclick="window.print()">Print Agreement</button>
+            </div>
+
+        </form>
+    </section>
+
+</body>
+</html> 
